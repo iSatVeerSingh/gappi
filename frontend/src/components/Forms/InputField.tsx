@@ -17,9 +17,11 @@ const InputField = ({
 }: InputFieldProps) => {
   return (
     <div className='mt-3'>
-      <label htmlFor={id} className='text-xl'>
-        {label}
-      </label>
+      {label && (
+        <label htmlFor={id} className='text-xl'>
+          {label}
+        </label>
+      )}
       <input
         type={type}
         name={name}

@@ -1,7 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.gappi-gradient-01 {
-  background-image: linear-gradient(35.9deg, #1d1d1d 38.66%, #a1083f 112.51%);
-}

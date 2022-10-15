@@ -11,8 +11,12 @@ module.exports = {
         'gappi-02': '#EC1763',
       },
       boxShadow: {
-        'gappi-shadow-01': '10px 10px 20px #101010'
-      }
+        'gappi-shadow-01': '10px 10px 20px #101010',
+      },
+      backgroundImage: {
+        'gappi-gradient-01':
+          'linear-gradient(35.9deg, #1d1d1d 38.66%, #a1083f 112.51%);',
+      },
     },
   },
   plugins: [],

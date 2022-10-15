@@ -4,8 +4,8 @@ import InputField from '../../components/Forms/InputField';
 
 const Login = () => {
   return (
-    <div className='h-screen gappi-gradient-01 text-white flex items-center justify-center px-3'>
-      <div className='bg-gappi-bg-01 p-4 rounded-md shadow-gappi-shadow-01'>
+    <div className='h-screen bg-gappi-gradient-01 text-white flex items-center justify-center px-3'>
+      <div className='bg-gappi-bg-01 p-4 rounded-md shadow-gappi-shadow-01 w-full max-w-[500px]'>
         <h2 className='text-4xl'>Welcome Back!</h2>
         <form>
           <InputField
