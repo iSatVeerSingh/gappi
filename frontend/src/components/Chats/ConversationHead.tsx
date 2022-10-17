@@ -3,14 +3,15 @@ import Avatar from "./Avatar"
 
 const ConversationHead = () => {
   return (
-    <div className="flex">
+    <div className="flex items-center justify-between gap-3 bg-gappi-05 text-white p-2">
       <Avatar src="/images/01.jpg" className="w-12 h-12" />
-      <div>
+      <div className="ml-auto flex items-center gap-2">
+        <input type="text" hidden />
         <button>
-          <FiSearch size='20px' />
+          <FiSearch size='25px' />
         </button>
       </div>
-      <div>
+      <div className="flex items-center gap-4">
         <button>
           <FiVideo size='25px' />
         </button>

@@ -12,7 +12,9 @@ module.exports = {
         'gappi-03': '#1B202D',
         'gappi-04': '#3D4354',
         'gappi-05': '#292F3F',
-        'gappi-06': '#B3B9C9'
+        'gappi-06': '#B3B9C9',
+        'gappi-07': '#373E4E',
+        'gappi-08': '#7A8194',
       },
       boxShadow: {
         'gappi-shadow-01': '10px 10px 20px #101010',
