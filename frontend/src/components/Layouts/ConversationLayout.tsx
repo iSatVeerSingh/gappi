@@ -5,8 +5,6 @@ import ChatSidebar from '../Chats/ChatSidebar';
 const ConversationLayout = ({ children }: PropsWithChildren) => {
   const isDesktop = useIsDesktop();
 
-  console.log(isDesktop);
-
   return (
     <div className='grid grid-cols-[400px_auto]'>
       {isDesktop && <ChatSidebar />}

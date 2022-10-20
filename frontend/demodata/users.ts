@@ -1,4 +1,4 @@
-export default [
+const users = [
   {
     id: 1,
     name: 'SatVeer Singh',
@@ -32,7 +32,6 @@ export default [
     id: 5,
     name: 'Sukhdev Singh',
     profileImage: '/images/05.jpg',
-
   },
   {
     id: 6,
@@ -91,3 +90,5 @@ export default [
     numberOfUnreadMessages: 303,
   },
 ];
+
+export default users;

@@ -29,7 +29,7 @@ export const ValidateForm = (
     }
     if (
       !formData.email ||
-      !/^[a-z0-9\.]+@[a-z0-9]+\.[a-z]+$/.test(formData.email)
+      !/^[a-z0-9.]+@[a-z0-9]+.[a-z]+$/.test(formData.email)
     ) {
       formErrors.email = 'provide a valid email';
     }

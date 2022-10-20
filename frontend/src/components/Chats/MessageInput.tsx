@@ -11,8 +11,6 @@ const MessageInput = () => {
           placeholder='type message here'
           className='border border-gappi-04 rounded-md bg-transparent text-lg py-2 px-3 flex-grow'
         />
-        
-        
 
         <button>
           <FiSend size='25px' />

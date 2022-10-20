@@ -24,7 +24,7 @@ const Login = () => {
       setFormErrors(isFormInvalid);
       return;
     }
-    setFormErrors(null)
+    setFormErrors(null);
   };
 
   return (
@@ -51,7 +51,7 @@ const Login = () => {
           <SubmitBtn btnText='Login Now' className='w-full mt-3' />
         </form>
         <p className='mt-3 flex gap-3'>
-          <span>Don't have an account?</span>
+          <span>Don&#39;t have an account?</span>
           <Link href='./signup'>
             <a className='text-gappi-02'>Register Here</a>
           </Link>

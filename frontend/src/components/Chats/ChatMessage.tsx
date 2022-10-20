@@ -10,7 +10,7 @@ const ChatMessage = ({ type, message }: ChatMessageProps) => {
         type === 'incoming' ? 'bg-gappi-07 self-start' : 'bg-gappi-08 self-end'
       }`}
     >
-      <p className="text-lg">{message}</p>
+      <p className='text-lg'>{message}</p>
       <span
         className={`text-gappi-06 absolute top-0 ${
           type === 'incoming'

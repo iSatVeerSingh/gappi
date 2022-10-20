@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    "no-duplicate-imports": "error",
+    "no-console": "error",
+    "no-empty-function": "error",
+    "no-multiple-empty-lines": "error"
+  }
 }

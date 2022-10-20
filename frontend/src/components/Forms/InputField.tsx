@@ -15,7 +15,7 @@ const InputField = ({
   name,
   id,
   placeholder,
-  inputError
+  inputError,
 }: InputFieldProps) => {
   return (
     <div className='mt-3'>
@@ -31,9 +31,7 @@ const InputField = ({
         placeholder={placeholder}
         className='w-full bg-transparent border border-gappi-02 text-lg py-2 px-3 rounded-md'
       />
-      {
-        inputError && <p className='text-red-500'>{inputError}</p>
-      }
+      {inputError && <p className='text-red-500'>{inputError}</p>}
     </div>
   );
 };

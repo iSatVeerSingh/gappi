@@ -1,9 +1,5 @@
-const ImageComponent  = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const ImageComponent = () => {
+  return <div></div>;
+};
 
-export default ImageComponent
+export default ImageComponent;

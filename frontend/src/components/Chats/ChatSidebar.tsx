@@ -12,7 +12,6 @@ const ChatSidebar = () => {
       const headerHeight = headerDiv.current.clientHeight;
       chatsDiv.current.style.height = `calc(100vh - ${headerHeight + 5}px)`;
     }
-
   }, []);
 
   return (
