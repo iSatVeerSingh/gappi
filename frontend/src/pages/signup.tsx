@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { useState, FormEventHandler } from 'react';
-import SubmitBtn from '../../components/Buttons/SubmitBtn';
-import InputField from '../../components/Forms/InputField';
-import { FormDataType, ValidateForm } from '../../utils/validateForm';
+import SubmitBtn from '../components/Buttons/SubmitBtn';
+import InputField from '../components/Forms/InputField';
+import { FormDataType, ValidateForm } from '../utils/validateForm';
 
 const Signup = () => {
   const [formErrors, setFormErrors] = useState<Partial<FormDataType> | null>(
