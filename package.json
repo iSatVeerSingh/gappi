@@ -1,0 +1,24 @@
+{
+  "name": "gappi",
+  "version": "1.0.0",
+  "description": "Gappi is realtime chat application built with NextJS, NestJS(backend), Mongodb.",
+  "main": "index.js",
+  "repository": "https://github.com/iSatVeerSingh/gappi.git",
+  "author": "SatVeer Singh <developer.satveer@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.17.0",
+    "yarn": ">=1.22.0",
+    "npm": "Please use yarn"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "dev:frontend": "yarn --cwd ./frontend/ dev",
+    "lint:frontend": "yarn --cwd ./frontend/ lint",
+    "lint": "yarn lint:frontend"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  }
+}
