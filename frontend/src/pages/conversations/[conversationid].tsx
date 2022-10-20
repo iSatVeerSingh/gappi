@@ -1,6 +1,7 @@
 import ChatMessage from '../../components/Chats/ChatMessage';
 import ConversationHead from '../../components/Chats/ConversationHead';
 import MessageInput from '../../components/Chats/MessageInput';
+import ConversationLayout from '../../components/Layouts/ConversationLayout';
 
 const Conversation = () => {
   return (
@@ -37,5 +38,7 @@ const Conversation = () => {
     </div>
   );
 };
+
+Conversation.Layout = ConversationLayout;
 
 export default Conversation;

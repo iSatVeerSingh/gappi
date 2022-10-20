@@ -3,7 +3,7 @@ import { FiSearch, FiMoreVertical } from 'react-icons/fi';
 import users from '../../../demodata/users';
 import ChatProfileSmall from '../../components/Chats/ChatProfileSmall';
 
-const Conversations = () => {
+const ChatSidebar = () => {
   const headerDiv = useRef<HTMLDivElement>(null);
   const chatsDiv = useRef<HTMLDivElement>(null);
 
@@ -54,4 +54,4 @@ const Conversations = () => {
   );
 };
 
-export default Conversations;
+export default ChatSidebar;
