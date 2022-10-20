@@ -13,11 +13,15 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "build:frontend": "yarn --cwd ./frontend/ build",
+    "build": "yarn build:frontend",
     "dev:frontend": "yarn --cwd ./frontend/ dev",
     "lint:frontend": "yarn --cwd ./frontend/ lint",
     "lint": "yarn lint:frontend"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1"
   }
