@@ -1,4 +1,4 @@
-import { PropsWithChildren, useEffect, useRef } from 'react';
+import { PropsWithChildren } from 'react';
 import { useIsDesktop } from '../../hooks/useIsDesktop';
 import { useMatchMinWidth } from '../../hooks/useMinWidth';
 import ChatSidebar from '../Chats/ChatSidebar';
